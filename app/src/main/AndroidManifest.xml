@@ -21,7 +21,7 @@
         </activity>
 
         <receiver android:name=".NetworkStateChecker">
-            <intent-filter>
+            <intent-filter>c
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
