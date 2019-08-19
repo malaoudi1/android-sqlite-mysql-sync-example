@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.TableLayout;
 
 /**
  * Created by Belal on 1/27/2017.
@@ -45,6 +46,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+
     /*
     * This method is taking two arguments
     * first one is the name that is to be saved
@@ -63,6 +65,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.insert(TABLE_NAME, null, contentValues);
         db.close();
         return true;
+
+    }
+
+    public static int getDbVersion() {
+        return DB_VERSION;
+    }
+
+    @Override
+    public SQLiteDatabase getReadableDatabase() {
+        return super.getReadableDatabase();
     }
 
     /*

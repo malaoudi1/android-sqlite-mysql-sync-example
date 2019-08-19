@@ -1,1 +1,1 @@
-# android-sqlite-mysql-sync-example
+# mysql-sqlite-background-sync

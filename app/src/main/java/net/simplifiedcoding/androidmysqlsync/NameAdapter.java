@@ -1,5 +1,5 @@
 package net.simplifiedcoding.androidmysqlsync;
-
+ 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,6 +28,7 @@ public class NameAdapter extends ArrayAdapter<Name> {
         this.context = context;
         this.names = names;
     }
+
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
