@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.TableLayout;
 
 /**
- * Created by Belal on 1/27/2017.
+ * Created by Maher alaqil on 1/27/2017.
  */
 public class DatabaseHelper extends SQLiteOpenHelper {
 

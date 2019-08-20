@@ -10,7 +10,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 
 /**
- * Created by Belal on 21/09/16.
+ * Created by Maher alaqil on 21/09/16.
  */
 public class VolleySingleton {
 

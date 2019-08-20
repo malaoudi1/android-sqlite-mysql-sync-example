@@ -1,7 +1,7 @@
 package net.simplifiedcoding.androidmysqlsync;
 
 /**
- * Created by Belal on 1/27/2017.
+ * Created by Maher alaqil on 1/27/2017.
  */
 
 public class Name {
